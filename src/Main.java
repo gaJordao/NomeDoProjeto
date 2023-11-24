@@ -22,20 +22,20 @@ public class Main {
                 continue;
             }
             if (media>=5.0 && faltas<25 && comportamento){
-                System.out.println("Este aluno foi aprovado");
+                System.out.println("Este aluno foi aprovado!");
             }
             else if (media<5.0 && faltas<25 && comportamento) {
-                System.out.println("Este aluno fara recuperação");
+                System.out.println("Este aluno fara recuperação!");
             }
             else if (media>= 5.0 && faltas>=25 && comportamento){
-                System.out.println("Este aluno ficará sem férias");
+                System.out.println("Este aluno ficará sem férias!");
             }
             else if (media>=5.0&& faltas<25 && !comportamento) {
-                System.out.println("Chamaremos este aluno para conversar");
+                System.out.println("Chamaremos este aluno para conversar!");
             } else {
-                System.out.println("Este aluno foi reprovado");
+                System.out.println("Este aluno foi reprovado:(");
             }
-            System.out.println("Digite sair para encerrar ou qualquer tecla para executar novamente");
+            System.out.println("Digite sair para encerrar ou qualquer tecla para executar novamente!");
             opcao=input.nextLine();
         }
     }
